@@ -77,6 +77,10 @@ body {
     margin-top: 10px;
 }
 
+.button-style-1:hover {
+    background-color: #1650ac;
+}
+
 .information {
     display: flex;
     flex-direction: column;
@@ -169,6 +173,10 @@ body {
     border-radius: 8px;
     margin-top: 10px;
     border: 2px solid;
+}
+
+.button-style-2:hover{
+    background-color: #1650ac;
 }
 
 .footer {
