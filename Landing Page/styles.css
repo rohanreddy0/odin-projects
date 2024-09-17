@@ -6,14 +6,13 @@ body {
     padding: 0;
 }
 
-.header-nav,
-.introduction {
-    background-color: #1F2937;
+.header-nav{
     padding: 0px 160px;
     margin: 0px;
 }
 
 .header-nav {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +32,7 @@ body {
 }
 
 .introduction {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,11 +40,12 @@ body {
     gap: 16px;
 }
 
-.introduction-text, .introduction-image{
+.introduction-text,
+.introduction-image {
     flex: 1;
 }
 
-.introduction-image{
+.introduction-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,13 +60,14 @@ body {
     font-weight: 900;
 }
 
-.hero-secondary-text,.introduction-image {
+.hero-secondary-text,
+.introduction-image {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
 }
 
-.button-style-1{
+.button-style-1 {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px 32px;
@@ -75,7 +77,45 @@ body {
     margin-top: 10px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 160px;
+}
 
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.information-content {
+    display: flex;
+    gap: 40px;
+}
+
+.information-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text{
+    padding: 8px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.container{
+    height: 150px;
+    width: 150px;
+    background-color: #1F2937;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
 
 ul {
     list-style-type: none;
